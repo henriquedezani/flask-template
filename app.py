@@ -1,5 +1,6 @@
 from flask import Flask
 app = Flask(__name__)
+# socket_ = SocketIO(app)
 
 
 @app.route('/')
@@ -14,4 +15,6 @@ if __name__ == '__main__':
 # $ python -m pip install Flask==1.1.1
 # $ python -m pip freeze > requirements.txt
 # $ python app.py
+
+# https://medium.com/swlh/implement-a-websocket-using-flask-and-socket-io-python-76afa5bbeae1
 
